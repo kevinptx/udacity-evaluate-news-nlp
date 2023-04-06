@@ -35,7 +35,10 @@ module.exports = {
             template: "./src/client/views/index.html",
             filename: "./index.html",
         }),
-        new MiniCssExtractPlugin({ filename: "[name].css" }),
+        // Resource: https://stackoverflow.com/questions/71209087/webpack-css-minimizer-webpack-plugin-vs-mini-css-extract-plugin
+        new MiniCssExtractPlugin({
+            filename: process.env.NODE_ENV === "production" ? "css/[name].[contenthash].chunk.css" : "css/[name].css"
+        }),
         new WorkboxPlugin.GenerateSW()
     ]
 }
