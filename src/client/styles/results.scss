@@ -1,0 +1,48 @@
+#form-results {
+    margin-top: 50px;
+
+    h2#results {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .form-result-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        font-size: 1.2rem;
+
+        .result-label {
+            display: inline-block;
+            width: 120px;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+
+        .result-value {
+            font-weight: bold;
+            color: inherit;
+        }
+    }
+
+    #score_tag {
+        color: #008000;
+    }
+
+    #agreement {
+        color: #0066cc;
+    }
+
+    #subjectivity {
+        color: #ff9900;
+    }
+
+    #confidence {
+        color: #cc0066;
+    }
+
+    #irony {
+        color: #cc6600;
+    }
+}
