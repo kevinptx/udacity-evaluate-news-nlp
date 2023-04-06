@@ -1,5 +1,5 @@
 # Evaluate News Article with Natural Language Processing (NLP)
-This project is part of the Udacity Front End Web Developer Nanodegree program. It is a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. It uses an external API from MeaningCloud to get the analysis of the article's text, including whether the text is subjective or objective, positive or negative, etc.
+This is the fourth and final project in Udacity's Front End Web Developer Nanodegree program. It is a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. It uses an external API from MeaningCloud to get the analysis of the article's text, including whether the text is subjective or objective, positive or negative, etc.
 
 ## Technologies
 
