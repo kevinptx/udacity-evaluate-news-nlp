@@ -17,7 +17,8 @@ To get started with this project, follow these steps:
 1. Clone the repo to your local machine using the following command: 
 
     ```
-    git clone https://github.com/[username]/udacity-evaluate-news-nlp.git
+    git clone https://github.com/kevinptx/udacity-evaluate-news-nlp.git
+
     ```
 
 2. Navigate to the project directory
